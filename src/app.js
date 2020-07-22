@@ -1,4 +1,3 @@
-console.log('dg')
 const geocode = require('./utility/geocode.js')
 const forecast = require('./utility/forecast.js')
 const path = require('path');
