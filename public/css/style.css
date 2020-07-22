@@ -1,0 +1,39 @@
+h1{
+  color: blue;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: burlywood;
+  padding: 0 0.5rem;
+}
+.header .navbar a{
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  background-color: darkblue;
+  border-radius: 5mm;
+  color: #fff;
+}
+form{
+  padding: 2rem 0;
+  text-align: center;
+}
+.center{margin: 0 auto;}
+input{
+  border: 1px solid #cccccc;
+  padding: 0.5rem;
+}
+button{
+  color: #fff;
+  border: 1px solid #888888;
+  background: #888888;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.footer{
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 2.5rem;
+}
