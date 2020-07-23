@@ -7,7 +7,7 @@ e.preventDefault()
 messageOne.textContent = 'loading...'
 messageTwo.textContent = ''
 let userAddr = input.value
-fetch('http://localhost:3000/weather?address='+encodeURIComponent(userAddr))
+fetch('/weather?address='+encodeURIComponent(userAddr))
 .then(response=>{
 response.json()
 .then(data=>{
