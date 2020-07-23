@@ -7,7 +7,7 @@ if(error){
 }else if(body.cod === '400'){
   callback('Unable to find location!',undefined)
 }else{
-  callback(undefined,`${body.weather[0].main} throughout the day . It is currently ${body.main.temp} degrees out .`)
+  callback(undefined,`Feels like ${body.main.feels_like} °C . ${body.weather[0].main} . Humidity : ${body.main.humidity}% . It is currently ${body.main.temp} degrees out .`)
 }
 })
 }
